@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "optifinecapes",
+  "version": "1.0.0",
+  "name": "OptiFine Capes",
+  "description": "Shows OptiFine capes from s.optifine.net without OptiFine.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.optifinecapes.OptifineCapesClient"
+    ]
+  },
+  "mixins": [
+    "optifinecapes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": ">=26.3",
+    "java": ">=25"
+  }
+}

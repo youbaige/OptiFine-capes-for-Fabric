@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.optifinecapes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerInfoMixin",
+    "CapeLayerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
